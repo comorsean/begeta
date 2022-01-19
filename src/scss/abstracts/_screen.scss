@@ -1,0 +1,33 @@
+html {
+  scroll-behavior: smooth;
+}
+html, body {
+  color: $body-color;
+  font-family: 'Bitter', serif;
+  margin: 0;  
+  font-size: 14px;
+  font-weight: bold;
+}
+body {
+  position: relative;
+}
+a {
+  color: $body-color;
+  &:hover {
+      text-decoration: none;
+  }
+}
+.main {
+  a {
+    font-family: "DIN Condensed";
+  }
+  p {
+    font-family: "DIN Condensed";
+  }
+  .container {
+    padding: 0 33px !important;
+    @include mq(desktop) {
+      padding: 0 15px !important;
+    }
+  }
+}

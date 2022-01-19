@@ -1,0 +1,24 @@
+.above-track {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    right: 15px;
+    font-size: 13px;
+    font-weight: bold;
+    letter-spacing: 1.58px;
+    line-height: 21px;
+    padding-top: 13px;
+    z-index: 100;
+    span {
+    margin: 0 10px;
+    }
+    address {
+        margin-bottom: 0;
+    }
+    a {
+        color: #505c65;
+    }
+    p {
+        margin-bottom: 0;
+    }
+}

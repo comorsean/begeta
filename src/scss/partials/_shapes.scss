@@ -1,0 +1,74 @@
+.hero-title {
+    font-size: 19px;
+    font-weight: bold;
+    line-height: 1.29;
+    letter-spacing: 1.87px;
+    margin-bottom: 10px;
+    text-align: center;
+    @include mq(desktop) {
+        font-size: 38px;
+        text-align: left;
+        letter-spacing: 4.87px;
+        max-width: 560px;
+    }
+}
+.hero-desc {
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 2.28;
+    letter-spacing: 0.37px;
+    margin-bottom: 19px;
+    text-align: center;
+    @include mq(desktop) {
+        letter-spacing: 2.37px;
+        font-size: 18px;
+        margin-bottom: 27px;
+        text-align: left;
+    }
+}
+.button {
+    border-radius: 4px;
+    padding: 0 20px;
+    font-size: 13px;
+    font-weight: bold;
+    line-height: 2.16;
+    letter-spacing: 2.5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 30px;
+    max-width: 200px;
+    &-green {
+        background-color: $light-green;
+    }
+    &-red {
+        background-color: $light-red;
+        color: #fff;
+    }
+    @include mq(desktop) {
+        height: 41px;
+        max-width: 220px;
+        font-size: 19px;
+        padding: 0 30px;
+    }
+}
+.img-text-title {
+    font-size: 30px;
+    font-weight: bold;
+    line-height: 0.82;
+    letter-spacing: 5.58px;
+    margin-bottom: 46px;
+    @include mq(desktop) {
+        font-size: 50px;
+    }
+}
+.img-text-desc {
+    font-size: 16px;
+    font-weight: bold;
+    letter-spacing: 2.63px;
+    max-width: 435px;
+    margin-bottom: 27px;
+    @include mq(desktop) {
+        font-size: 20px;
+    }
+}
