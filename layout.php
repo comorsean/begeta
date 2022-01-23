@@ -65,12 +65,15 @@ include_once __DIR__ . "/_vars.php";
 
         <!-- start: footer content -->
         <footer id="footer" class="footer">
-            <?php include_once __DIR__ . "/_footer.php"; ?>
+            <div class="container">
+                <?php include_once __DIR__ . "/_footer.php"; ?>
+            </div>
         </footer>  
         <!-- end: footer content --> 
         <script src="/dist/js/1jquery.3.5.1.min.js"></script>
         <script src="https://kit.fontawesome.com/3f78aa4208.js" crossorigin="anonymous"></script>
         <script src="/dist/js/bootstrap.min.js"></script>
+        <script src="/dist/js/owl.carousel.min.js"></script>
         <script src="/dist/js/z.app.js"></script>
     </body>
 </html>

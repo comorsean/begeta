@@ -55,7 +55,6 @@
 .img-text-title {
     font-size: 30px;
     font-weight: bold;
-    line-height: 0.82;
     letter-spacing: 5.58px;
     margin-bottom: 46px;
     @include mq(desktop) {
@@ -70,5 +69,47 @@
     margin-bottom: 27px;
     @include mq(desktop) {
         font-size: 20px;
+    }
+}
+.hero-side-title {
+    font-size: 30px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+    @include mq(tablet) {
+        font-size: 40px;
+        letter-spacing: 4px;
+        margin-bottom: 30px;
+    }
+    @include mq(desktop) {
+        font-size: 60px;
+        letter-spacing: 8px;
+    }
+}
+.hero-side-desc {
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    max-width: 490px;
+    @include mq(desktop) {
+        font-size: 20px;
+        line-height: 1.75;
+        letter-spacing: 2px;
+    }
+}
+.staff-title {
+    font-size: 22px;
+    font-weight: bold;
+    line-height: 1.59;
+    letter-spacing: 3px;
+}
+.section-carousel-title {
+    font-size: 25px;
+    font-weight: bold;
+    letter-spacing: 3.26px;
+    margin-bottom: 25px;
+    @include mq(desktop) {
+        font-size: 40px;
+        letter-spacing: 5.26px;
     }
 }

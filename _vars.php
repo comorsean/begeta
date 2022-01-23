@@ -18,9 +18,15 @@ switch ($page) {
     case 'contact':
         $body_class = 'contact';
         break;
-    case 'loneprogram':
-        $body_class = 'loneprogram';
+    case 'ordination':
+        $body_class = 'ordination';
         break;
+    case 'laboratory':
+        $body_class = 'laboratory';
+        break;  
+    case 'gallery':
+        $body_class = 'gallery';
+        break;        
 
 }
 

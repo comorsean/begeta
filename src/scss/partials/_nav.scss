@@ -10,8 +10,11 @@
     @include mq(desktop) {
         justify-content: space-between;
         padding: 0;
+        height: 170px;
     }
     .navbar-brand {
+        position: relative;
+        z-index: 1000;
         img {
             max-width: 80px;
             @include mq(desktop) {

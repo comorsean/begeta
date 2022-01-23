@@ -1,5 +1,6 @@
 .hero-section {
     padding-top: 35px;
+    margin-bottom: 40px;
     @include mq(desktop) {
         padding-top: 45px;
         margin-bottom: 225px;
@@ -10,6 +11,8 @@
         position: relative;
     }
     .hero-text-box {
+        position: relative;
+        z-index: 1000;
         @media only screen and (max-width: 992px) {
             display: flex;
             flex-direction: column;
@@ -42,6 +45,10 @@
         }
     }
     &.right {
+        margin-bottom: 20px;
+        @include mq(desktop) {
+            margin-bottom: 50px;
+        }
         .container {
             display: flex;
             flex-direction: column;
@@ -64,5 +71,28 @@
     }
     img {
         margin-left: auto;
+        max-width: 100%;
+        @include mq(desktop) {
+            max-width: 50%;
+        }
+        @include mq(desktop-xxxl) {
+            //max-width: 100%;
+        }
+    }
+}
+.section-team {
+    margin-top: 10px;
+    img {
+        width: 100%;
+        @include mq(desktop) {
+            height: 90vh;
+            object-fit: cover;
+            object-position: top;
+        }
+    }
+}
+.homepage {
+    .navbar {
+        margin-bottom: 50px;
     }
 }
