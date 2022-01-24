@@ -1,6 +1,6 @@
 <?php if(isMobile()):?>
 <div class="footer-logo">
-    <img class="img-fluid" src="/img/logo.svg" alt="">
+    <img class="img-fluid" src="./img/logo.svg" alt="">
 </div>
 <div class="contact-footer">
     <span>Kontakt</span>

@@ -1,5 +1,5 @@
 <section class="section hero-side-page">
-    <img class="img-fluid" src="/img/laboratorija/dr_begeta_laboratorija_7.jpg" alt="laboratorija">
+    <img class="img-fluid" src="./img/laboratorija/dr_begeta_laboratorija_7.jpg" alt="laboratorija">
     <div class="container">
         <div class="hero-side-box">
             <h1 class="hero-side-title">Laboratorija</h1>
@@ -10,7 +10,7 @@
     </div>
 </section>
 <section class="section img-text-section left">
-    <img class="img-fluid" src="/img/begeta-laboratorija.jpg" alt="">
+    <img class="img-fluid" src="./img/begeta-laboratorija.jpg" alt="">
     <div class="img-text-box">
         <div class="container">
             <div class="text-box">
@@ -37,7 +37,7 @@
     <div class="owl-carousel owl-carousel-sidepage owl-theme">
         <?php for ($i=1; $i <= 7; $i++): ?>
             <div class="item">
-                <img class="img-fluid" src="/img/laboratorija/dr_begeta_laboratorija_<?php echo $i; ?>.jpg" alt="carousel-img">
+                <img class="img-fluid" src="./img/laboratorija/dr_begeta_laboratorija_<?php echo $i; ?>.jpg" alt="carousel-img">
             </div>
         <?php endfor; ?>
     </div>

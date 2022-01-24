@@ -42,10 +42,10 @@ include_once __DIR__ . "/_vars.php";
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Bitter:wght@400;700&display=swap" rel="stylesheet">
         <link href="//db.onlinewebfonts.com/c/d45f96029e61832fd84afffd3068b768?family=DIN+Condensed" rel="stylesheet" type="text/css"/>
-        <link rel="stylesheet" href="dist/css/bootstrap/bootstrap-grid.css">  
-        <link rel="stylesheet" href="dist/css/bootstrap/bootstrap-reboot.css">  
-        <link rel="stylesheet" href="dist/css/bootstrap/bootstrap.css"> 
-        <link rel="stylesheet" href="dist/css/app.css">  
+        <link rel="stylesheet" href="./dist/css/bootstrap/bootstrap-grid.css">  
+        <link rel="stylesheet" href="./dist/css/bootstrap/bootstrap-reboot.css">  
+        <link rel="stylesheet" href="./dist/css/bootstrap/bootstrap.css"> 
+        <link rel="stylesheet" href="./dist/css/app.css">  
     </head>
 <body class="<?php if(isset($body_class))  : ?><?php echo $body_class; ?><?php endif; ?>">
 
@@ -70,10 +70,10 @@ include_once __DIR__ . "/_vars.php";
             </div>
         </footer>  
         <!-- end: footer content --> 
-        <script src="/dist/js/1jquery.3.5.1.min.js"></script>
+        <script src="./dist/js/1jquery.3.5.1.min.js"></script>
         <script src="https://kit.fontawesome.com/3f78aa4208.js" crossorigin="anonymous"></script>
-        <script src="/dist/js/bootstrap.min.js"></script>
-        <script src="/dist/js/owl.carousel.min.js"></script>
-        <script src="/dist/js/z.app.js"></script>
+        <script src="./dist/js/bootstrap.min.js"></script>
+        <script src="./dist/js/owl.carousel.min.js"></script>
+        <script src="./dist/js/z.app.js"></script>
     </body>
 </html>

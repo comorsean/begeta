@@ -1,5 +1,5 @@
 <section class="section hero-side-page">
-    <img class="img-fluid" src="/img/ordinacija/dr_begeta_ordinacija_17.jpg" alt="laboratorija">
+    <img class="img-fluid" src="./img/ordinacija/dr_begeta_ordinacija_17.jpg" alt="laboratorija">
 </section>
 <section class="section section-carousel ordination-sec">
     <div class="container">
@@ -8,7 +8,7 @@
     <div class="owl-carousel owl-carousel-ordination owl-theme">
         <?php for ($i=1; $i <= 17; $i++): ?>
             <div class="item">
-                <img class="img-fluid" src="/img/ordinacija/dr_begeta_ordinacija_<?php echo $i; ?>.jpg" alt="carousel-img">
+                <img class="img-fluid" src="./img/ordinacija/dr_begeta_ordinacija_<?php echo $i; ?>.jpg" alt="carousel-img">
             </div>
         <?php endfor; ?>
     </div>
@@ -20,7 +20,7 @@
     <div class="owl-carousel owl-carousel-laboratory owl-theme">
         <?php for ($i=1; $i <= 7; $i++): ?>
             <div class="item">
-                <img class="img-fluid" src="/img/laboratorija/dr_begeta_laboratorija_<?php echo $i; ?>.jpg" alt="carousel-img">
+                <img class="img-fluid" src="./img/laboratorija/dr_begeta_laboratorija_<?php echo $i; ?>.jpg" alt="carousel-img">
             </div>
         <?php endfor; ?>
     </div>
@@ -31,19 +31,19 @@
     </div>
     <div class="owl-carousel owl-carousel-ordination owl-theme">
         <div class="item">
-            <img class="img-fluid" src="/img/carousel-img.jpg" alt="carousel-img">
+            <img class="img-fluid" src="./img/carousel-img.jpg" alt="carousel-img">
         </div>
         <div class="item">
-            <img class="img-fluid" src="/img/carousel-img.jpg" alt="carousel-img">
+            <img class="img-fluid" src="./img/carousel-img.jpg" alt="carousel-img">
         </div>
         <div class="item">
-            <img class="img-fluid" src="/img/carousel-img.jpg" alt="carousel-img">
+            <img class="img-fluid" src="./img/carousel-img.jpg" alt="carousel-img">
         </div>
         <div class="item">
-            <img class="img-fluid" src="/img/carousel-img.jpg" alt="carousel-img">
+            <img class="img-fluid" src="./img/carousel-img.jpg" alt="carousel-img">
         </div>
         <div class="item">
-            <img class="img-fluid" src="/img/carousel-img.jpg" alt="carousel-img">
+            <img class="img-fluid" src="./img/carousel-img.jpg" alt="carousel-img">
         </div>
     </div>
 </section>

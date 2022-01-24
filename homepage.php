@@ -14,12 +14,12 @@
         <?php if(isMobile()):?>
 
         <?php else: ?>
-            <img class="img-fluid hero-img" src="/img/hero-img.png" alt="">
+            <img class="img-fluid hero-img" src="./img/hero-img.png" alt="">
         <?php endif;?>
     </div>
 </section>
 <section class="section img-text-section left">
-    <img class="img-fluid" src="/img/ordinacija/dr_begeta_ordinacija_5.jpg" alt="">
+    <img class="img-fluid" src="./img/ordinacija/dr_begeta_ordinacija_5.jpg" alt="">
     <div class="img-text-box">
         <div class="container">
             <div class="text-box">
@@ -35,7 +35,7 @@
     </div>
 </section>
 <section class="section img-text-section right">
-    <img class="img-fluid" src="/img/laboratorija/dr_begeta_laboratorija_7.jpg" alt="">
+    <img class="img-fluid" src="./img/laboratorija/dr_begeta_laboratorija_7.jpg" alt="">
     <div class="img-text-box">
         <div class="container">
             <div class="text-box">
@@ -54,11 +54,11 @@
     <div class="owl-carousel owl-carousel-homepage owl-theme">
         <?php for ($i=1; $i <= 16; $i++): ?>
             <div class="item">
-                <img class="img-fluid" src="/img/ordinacija/dr_begeta_ordinacija_<?php echo $i; ?>.jpg" alt="carousel-img">
+                <img class="img-fluid" src="./img/ordinacija/dr_begeta_ordinacija_<?php echo $i; ?>.jpg" alt="carousel-img">
             </div>
         <?php endfor; ?>
     </div>
 </section>
 <section class="section section-team">
-    <img class="img-fluid" src="/img/team-img.jpg" alt="">
+    <img class="img-fluid" src="./img/team-img.jpg" alt="">
 </section>

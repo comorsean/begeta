@@ -1,5 +1,5 @@
 <section class="section hero-side-page">
-    <img class="img-fluid" src="/img/begeta-kontakt.jpg" alt="Begeta kontakt">
+    <img class="img-fluid" src="./img/ordinacija/dr_begeta_ordinacija_10.jpg" alt="Begeta kontakt">
 </section>
 <section class="section contact-section">
     <div class="container">
@@ -9,14 +9,14 @@
         <div class="row">
             <div class="col-12 col-lg-5">
                 <div class="adress">
-                    <img class="img-fluid" src="/img/bitmap.png" alt="begeta lokacija">
+                    <img class="img-fluid" src="./img/bitmap.png" alt="begeta lokacija">
                     <address>
                         Ćemaluša 4/11<br>
                         71000 Sarajevo
                     </address>
                 </div>
                 <div class="phone">
-                    <img class="img-fluid" src="/img/phone.png" alt="begeta telefon">
+                    <img class="img-fluid" src="./img/phone.png" alt="begeta telefon">
                     <div class="two-phone">
                         <a href="tel:+38733225257">Tel/Fax: +387 33 225 257;</a>
                         <div>
@@ -26,7 +26,7 @@
                     </div>
                 </div>
                 <div class="email">
-                    <img class="img-fluid" src="/img/email.png" alt="begeta email">
+                    <img class="img-fluid" src="./img/email.png" alt="begeta email">
                     <div class="two-phone">
                         <a href="mailto:ordinacija@begeta.ba">ordinacija@begeta.ba,</a>
                         <div>
