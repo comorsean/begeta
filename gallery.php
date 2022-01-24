@@ -30,20 +30,10 @@
         <h2 class="section-carousel-title">Dr. Begeta - Prikaz slučajeva</h2>
     </div>
     <div class="owl-carousel owl-carousel-ordination owl-theme">
-        <div class="item">
-            <img class="img-fluid" src="./img/carousel-img.jpg" alt="carousel-img">
-        </div>
-        <div class="item">
-            <img class="img-fluid" src="./img/carousel-img.jpg" alt="carousel-img">
-        </div>
-        <div class="item">
-            <img class="img-fluid" src="./img/carousel-img.jpg" alt="carousel-img">
-        </div>
-        <div class="item">
-            <img class="img-fluid" src="./img/carousel-img.jpg" alt="carousel-img">
-        </div>
-        <div class="item">
-            <img class="img-fluid" src="./img/carousel-img.jpg" alt="carousel-img">
-        </div>
+        <?php for ($i=1; $i <= 7; $i++): ?>
+            <div class="item">
+                <img class="img-fluid" src="./img/laboratorija/dr_begeta_laboratorija_<?php echo $i; ?>.jpg" alt="carousel-img">
+            </div>
+        <?php endfor; ?>
     </div>
 </section>
