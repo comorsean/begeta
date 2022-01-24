@@ -1,7 +1,7 @@
 <?php if(isMobile()):?>
 
 <?php else: ?>
-    <div class="above-track">
+    <div class="above-track d-none d-lg-flex">
         <address>Ćemaluša 4, Sarajevo</address>
         <span>|</span>
         <a href="tel:+38733225257">+387 33 225 257</a>
