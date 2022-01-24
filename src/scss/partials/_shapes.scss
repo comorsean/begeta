@@ -63,7 +63,7 @@
 }
 .img-text-desc {
     font-size: 16px;
-    font-weight: bold;
+    font-weight: normal !important;
     letter-spacing: 2.63px;
     max-width: 435px;
     margin-bottom: 27px;
@@ -88,7 +88,7 @@
 }
 .hero-side-desc {
     font-size: 14px;
-    font-weight: bold;
+    font-weight: normal;
     letter-spacing: 1px;
     max-width: 490px;
     @include mq(desktop) {
@@ -98,10 +98,10 @@
     }
 }
 .staff-title {
-    font-size: 22px;
+    font-size: 13px;
     font-weight: bold;
     line-height: 1.59;
-    letter-spacing: 3px;
+    letter-spacing: 1px;
 }
 .section-carousel-title {
     font-size: 25px;

@@ -37,7 +37,7 @@
     <div class="owl-carousel owl-carousel-sidepage owl-theme">
         <?php for ($i=1; $i <= 7; $i++): ?>
             <div class="item">
-                <img class="img-fluid" src="./img/laboratorija/dr_begeta_laboratorija_<?php echo $i; ?>.jpg" alt="carousel-img">
+                <img class="img-fluid" src="./img/laboratorija/dr_begeta_laboratorija_<?php echo $i; ?>.jpg" data-fancybox="gallery"  alt="carousel-img">
             </div>
         <?php endfor; ?>
     </div>

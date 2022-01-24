@@ -38,6 +38,7 @@ include_once __DIR__ . "/_vars.php";
         <link rel="preload" as="image" href="/dist/images/hero-bckg.png">
         <link rel="preload" as="image" href="/dist/images/laptop.png">-->
         <!-- css -->   
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.css"/>
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Bitter:wght@400;700&display=swap" rel="stylesheet">
@@ -71,7 +72,7 @@ include_once __DIR__ . "/_vars.php";
         </footer>  
         <!-- end: footer content --> 
         <script src="./dist/js/1jquery.3.5.1.min.js"></script>
-        <script src="https://kit.fontawesome.com/3f78aa4208.js" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js"></script>
         <script src="./dist/js/bootstrap.min.js"></script>
         <script src="./dist/js/owl.carousel.min.js"></script>
         <script src="./dist/js/z.app.js"></script>

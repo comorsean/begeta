@@ -7,14 +7,14 @@
             <p class="hero-desc">
                 Među najpoznatijim stomatološkim ordinacijama u Bosni i Hercegovini.
             </p>
-            <a class="hero-view-more button button-green" href="#">
+            <a class="hero-view-more button button-green" href="./?page=contact">
                 Kontaktirajte nas
             </a>
         </div>
         <?php if(isMobile()):?>
 
         <?php else: ?>
-            <img class="img-fluid hero-img" src="./img/hero-img.png" alt="">
+            <img class="img-fluid hero-img d-none d-lg-block" src="./img/hero-img.png" alt="">
         <?php endif;?>
     </div>
 </section>
@@ -29,7 +29,7 @@
                 <p class="img-text-desc">
                     Uže specijalnosti ordinacije su stomatološka protetika i dentalna implantologija dok istovremeno pružamo usluge iz oblasti estetske stomatologije ,dentalne patologije, endodoncije, parodontalne hirurgije, oralne hirurgije i preventivne stomatologije.
                 </p>
-                <a class="button button-red" href="#">Ordinacija</a>
+                <a class="button button-red" href="./?page=ordination">Ordinacija</a>
             </div>
         </div>
     </div>
@@ -45,7 +45,7 @@
                 <p class="img-text-desc">
                     U našem posjedu se nalazi i sopstvena zubotehnička laboratorija koja je opremljena najmodernijom tehnologijom za izradu svih vrsta mobilnih, fiksnih i kombinovanih protetskih radova. Od 2008 godine naša je laboratorija opremljena najnovijom opremom firme AMMANNGIRRBACH za izradu bezmetalne kermike na bazi cirkon oksida.
                 </p>
-                <a class="button button-red" href="#">Laboratorija</a>
+                <a class="button button-red" href="./?page=laboratory">Laboratorija</a>
             </div>
         </div>
     </div>
@@ -54,7 +54,7 @@
     <div class="owl-carousel owl-carousel-homepage owl-theme">
         <?php for ($i=1; $i <= 16; $i++): ?>
             <div class="item">
-                <img class="img-fluid" src="./img/ordinacija/dr_begeta_ordinacija_<?php echo $i; ?>.jpg" alt="carousel-img">
+                <img class="img-fluid" src="./img/ordinacija/dr_begeta_ordinacija_<?php echo $i; ?>.jpg" data-fancybox="gallery"  alt="carousel-img">
             </div>
         <?php endfor; ?>
     </div>

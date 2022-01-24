@@ -17,7 +17,7 @@
         <a class="nav-link" href="./?page=laboratory">Laboratorija</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Slučajevi</a>
+        <a class="nav-link" href="./?page=gallery">Galerija slika</a>
       </li>
       <li class="nav-item contact">
         <a class="nav-link" href="./?page=contact">Kontakt</a>
